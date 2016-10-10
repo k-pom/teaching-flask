@@ -1,0 +1,12 @@
+{% extends "_layout.html" %}
+{% block content %}
+
+    <span class='error'>{{error}}</span>
+    <form method="POST" action="/register">
+        Username: <input name='username' />
+        <p>
+            <input type='submit' value='Register' />
+        </p>
+    </form>
+
+{% endblock %}
