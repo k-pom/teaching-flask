@@ -15,6 +15,6 @@ Install the dependencies. Read requirements.txt to see what will be installed
 
 Run the application
 
-`$ python application.py`
+`$ python app.py`
 
 In your browser, go to http://localhost:3000/
